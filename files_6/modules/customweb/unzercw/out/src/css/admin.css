@@ -1,0 +1,7 @@
+.control-group.date-of-birth .control-element .control-element {
+	display: inline-block;
+}
+
+.control-group .control-element .option label {
+	margin-left: 5px;
+}

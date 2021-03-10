@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxshopsett">
+        	<SUBMENU id="mxpaymeth" cl="admin_payment" list="payment_list">
+        		<TAB id="tbcl_unzercw_payment_settings" cl="unzercw_payment_settings" />
+        	</SUBMENU>
+        </MAINMENU>
+        
+         <MAINMENU id="mxorders">
+            <SUBMENU id="mxdisplayorders" cl="admin_order" list="order_list">
+                <TAB id="tbcl_unzercw_order_transactions" cl="unzercw_order_transactions" />
+            </SUBMENU>
+            
+            <SUBMENU id="mxunzercw_transactions" cl="unzercw_transaction_admin"  list="unzercw_transaction_list">
+            	<TAB id="tbcl_unzercw_transaction_view" cl="unzercw_transaction_view" />
+            </SUBMENU>
+        </MAINMENU>
+        
+        <MAINMENU id="mxextensions">
+            <SUBMENU id="mxunzercw_backendform" cl="unzercw_backendform" />
+        </MAINMENU>
+    </OXMENU>
+</OX>

@@ -1,0 +1,1 @@
+ALTER TABLE  `unzercw_transaction` CHANGE  `oxid`  `oxid` VARCHAR( 32 ) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL;

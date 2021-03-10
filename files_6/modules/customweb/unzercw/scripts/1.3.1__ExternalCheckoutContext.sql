@@ -1,0 +1,1 @@
+ALTER TABLE `unzercw_external_checkout_context` ADD `guestAccount` CHAR(1);

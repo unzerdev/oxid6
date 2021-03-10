@@ -1,0 +1,1 @@
+ALTER TABLE `unzercw_transaction` ADD `lastSetOrderStatusSettingKey` VARCHAR(255);
